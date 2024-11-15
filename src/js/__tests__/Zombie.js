@@ -1,3 +1,4 @@
+/* eslint-env jest */
 import Zombie from '../Zombie';
 
 test('should throw error for invalid name length', () => {

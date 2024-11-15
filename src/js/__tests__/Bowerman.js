@@ -1,5 +1,6 @@
 import Bowerman from '../Bowerman';
 
+/* eslint-env jest */
 test('should throw error for invalid name length', () => {
   expect(() => new Bowerman('VeryLongName')).toThrow('length must between 2 and 10 characters');
 });

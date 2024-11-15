@@ -1,5 +1,6 @@
 import character from '../app';
 
+/* eslint-env jest */
 test('should create a Bowerman character with correct properties', () => {
   const result = {
     name: character.name,

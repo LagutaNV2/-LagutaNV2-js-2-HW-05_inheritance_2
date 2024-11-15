@@ -1,5 +1,6 @@
 import Swordsman from '../Swordsman';
 
+/* eslint-env jest */
 test('should throw error for invalid name length', () => {
   expect(() => new Swordsman('VeryLongName')).toThrow('length must between 2 and 10 characters');
 });

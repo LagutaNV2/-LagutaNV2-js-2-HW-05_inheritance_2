@@ -1,5 +1,6 @@
 import Undead from '../Undead';
 
+/* eslint-env jest */
 test('should throw error for invalid name length', () => {
   expect(() => new Undead('VeryLongName')).toThrow('length must between 2 and 10 characters');
 });

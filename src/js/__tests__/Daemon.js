@@ -1,5 +1,6 @@
 import Daemon from '../Daemon';
 
+/* eslint-env jest */
 test('should throw error for invalid name length', () => {
   expect(() => new Daemon('VeryLongName')).toThrow('length must between 2 and 10 characters');
 });
