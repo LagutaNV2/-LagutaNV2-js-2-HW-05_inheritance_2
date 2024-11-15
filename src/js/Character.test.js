@@ -1,6 +1,5 @@
-import Character from '../Character';
+import Character from './Character';
 
-/* eslint-env jest */
 test('invalid length name', () => {
   expect(() => new Character('A', 'Bowman')).toThrow('length must between 2 and 10 characters');
 });
